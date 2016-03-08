@@ -1,0 +1,27 @@
+{
+  "name": "node-docker-app",
+  "version": "1.0.0",
+  "description": "Seed Node App with docker config",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ch4nd4n/node-docker-app.git"
+  },
+  "author": "ch4nd4n",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ch4nd4n/node-docker-app/issues"
+  },
+  "homepage": "https://github.com/ch4nd4n/node-docker-app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-domain-middleware": "^0.1.0",
+    "express-session": "^1.13.0",
+    "morgan": "^1.7.0"
+  }
+}
